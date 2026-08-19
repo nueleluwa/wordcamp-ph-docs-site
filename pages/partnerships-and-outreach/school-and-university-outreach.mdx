@@ -89,15 +89,15 @@ Ambassador sign-up captures: name, school, course/year, social media handles, an
 
 ## Campus visit checklist
 
-☐ Schedule appointment with HOD/Student Affairs
-☐ Prepare presentation slides (15–20 minutes)
-☐ Print flyers and posters
-☐ Prepare student registration QR code
-☐ Bring WordCamp swag samples
-☐ Prepare ambassador program information
-☐ Collect contact information for follow-up
-☐ Take photos for social media
-☐ Send thank-you email within 24 hours
+- [ ] Schedule appointment with HOD/Student Affairs
+- [ ] Prepare presentation slides (15–20 minutes)
+- [ ] Print flyers and posters
+- [ ] Prepare student registration QR code
+- [ ] Bring WordCamp swag samples
+- [ ] Prepare ambassador program information
+- [ ] Collect contact information for follow-up
+- [ ] Take photos for social media
+- [ ] Send thank-you email within 24 hours
 
 ## Success metrics
 

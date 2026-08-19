@@ -6,13 +6,13 @@
 
 ## Contract categories required before the event
 
-☐ Venue rental agreement signed
-☐ Catering contract confirmed
-☐ AV equipment rental agreement
-☐ Security service contract
-☐ Printing services contract
-☐ Transportation contracts (if applicable)
-☐ All contracts reviewed and signed
+- [ ] Venue rental agreement signed
+- [ ] Catering contract confirmed
+- [ ] AV equipment rental agreement
+- [ ] Security service contract
+- [ ] Printing services contract
+- [ ] Transportation contracts (if applicable)
+- [ ] All contracts reviewed and signed
 
 ## What to track per vendor
 

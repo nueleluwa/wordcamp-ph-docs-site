@@ -16,31 +16,31 @@ WordPress.org Username (if applicable): ________________________________________
 
 Have you attended any of the following events?
 
-[ ] WordCamp (please specify which): _________________________________
-[ ] WordPress Meetup (please specify which): _________________________________
-[ ] Neither
+- [ ] WordCamp (please specify which): _________________________________
+- [ ] WordPress Meetup (please specify which): _________________________________
+- [ ] Neither
 
 ## Skills & Experience
 
 Select the areas where you can support (check all that apply):
 
-[ ] Sponsorship — Sponsor prospecting, outreach, and relationship management
-[ ] Partnerships & Outreach — Building relationships with tech communities, universities, startup hubs
-[ ] Marketing — Social media, website updates, email campaigns, announcements
-[ ] Logistics — Venue coordination, power backup, catering, signage, registration desk
-[ ] Design — Graphics, banners, promotional materials
-[ ] Program/Speakers — Call for speakers, speaker review, schedule creation
-[ ] Volunteer Coordination — Volunteer recruitment and event-day coordination
-[ ] Other (please specify): _________________________________
+- [ ] Sponsorship — Sponsor prospecting, outreach, and relationship management
+- [ ] Partnerships & Outreach — Building relationships with tech communities, universities, startup hubs
+- [ ] Marketing — Social media, website updates, email campaigns, announcements
+- [ ] Logistics — Venue coordination, power backup, catering, signage, registration desk
+- [ ] Design — Graphics, banners, promotional materials
+- [ ] Program/Speakers — Call for speakers, speaker review, schedule creation
+- [ ] Volunteer Coordination — Volunteer recruitment and event-day coordination
+- [ ] Other (please specify): _________________________________
 
 ## Availability
 
 How many hours per week can you commit to organizing WordCamp Port Harcourt?
 
-[ ] 2–4 hours per week
-[ ] 4–6 hours per week
-[ ] 6–10 hours per week
-[ ] More than 10 hours per week
+- [ ] 2–4 hours per week
+- [ ] 4–6 hours per week
+- [ ] 6–10 hours per week
+- [ ] More than 10 hours per week
 
 ## Motivation
 
@@ -52,8 +52,8 @@ ________________________________________________________________________________
 
 Have you organized or volunteered at events before?
 
-[ ] Yes
-[ ] No
+- [ ] Yes
+- [ ] No
 
 If yes, please describe your experience:
 ____________________________________________________________________________________________________________________________________________________________________________________
@@ -62,7 +62,7 @@ ________________________________________________________________________________
 
 *I understand that organizing WordCamp Port Harcourt is a volunteer role requiring consistent participation, regular communication with the team, and dedication to the WordPress community. I commit to attending team meetings, completing assigned tasks, and supporting the event's success.*
 
-[ ] I agree to the commitment statement above
+- [ ] I agree to the commitment statement above
 
 Signature: ____________________________________________________________
 Date: ____________________________________________________________
@@ -83,4 +83,7 @@ Scoring rubric and weights: [recruiting/organizer-recruitment-sop.md](../recruit
 
 Reviewer Name: ____________________________________________________________
 Review Date: ____________________________________________________________
-Decision: [ ] Shortlisted  [ ] Rejected  [ ] Waitlist
+Decision:
+- [ ] Shortlisted
+- [ ] Rejected
+- [ ] Waitlist

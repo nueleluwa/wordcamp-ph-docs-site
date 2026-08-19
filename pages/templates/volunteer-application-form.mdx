@@ -15,8 +15,8 @@ Emergency Contact (Name & Phone): ______________________________________________
 
 Have you volunteered at events before?
 
-[ ] Yes
-[ ] No
+- [ ] Yes
+- [ ] No
 
 If yes, please describe your volunteer experience:
 ________________________________________________________________________________________________________________________
@@ -25,32 +25,32 @@ ________________________________________________________________________________
 
 Select your preferred volunteer role (check all that apply):
 
-[ ] Registration Desk — Check-in attendees, distribute badges and swag
-[ ] Stage Support — Assist speakers with setup, manage microphones
-[ ] Speaker Support — Guide speakers, manage green room
-[ ] Media Team — Photography, videography, social media coverage
-[ ] Crowd Control — Manage queues, assist attendees
-[ ] Technical Support — WiFi assistance, AV troubleshooting
-[ ] Setup/Teardown — Venue setup before and cleanup after event
-[ ] Any role needed — Flexible assignment
+- [ ] Registration Desk — Check-in attendees, distribute badges and swag
+- [ ] Stage Support — Assist speakers with setup, manage microphones
+- [ ] Speaker Support — Guide speakers, manage green room
+- [ ] Media Team — Photography, videography, social media coverage
+- [ ] Crowd Control — Manage queues, assist attendees
+- [ ] Technical Support — WiFi assistance, AV troubleshooting
+- [ ] Setup/Teardown — Venue setup before and cleanup after event
+- [ ] Any role needed — Flexible assignment
 
 ## Availability
 
 Which days are you available to volunteer?
 
-[ ] Setup Day (Day before event)
-[ ] Event Day — Morning Shift
-[ ] Event Day — Afternoon Shift
-[ ] Event Day — Full Day
-[ ] Teardown (Day after event)
+- [ ] Setup Day (Day before event)
+- [ ] Event Day — Morning Shift
+- [ ] Event Day — Afternoon Shift
+- [ ] Event Day — Full Day
+- [ ] Teardown (Day after event)
 
 ## T-Shirt Size
 
-[ ] Small (S)
-[ ] Medium (M)
-[ ] Large (L)
-[ ] Extra Large (XL)
-[ ] XXL
+- [ ] Small (S)
+- [ ] Medium (M)
+- [ ] Large (L)
+- [ ] Extra Large (XL)
+- [ ] XXL
 
 ## Dietary Restrictions
 
@@ -62,7 +62,7 @@ ________________________________________________________________________________
 
 *I will show up on time for my assigned shift, communicate promptly if I cannot fulfill my commitment, and support the event responsibly. I understand that volunteering is an important role that contributes to the success of WordCamp Port Harcourt.*
 
-[ ] I agree to the volunteer commitment
+- [ ] I agree to the volunteer commitment
 
 Signature: ____________________________________________________________
 Date: ____________________________________________________________
@@ -74,4 +74,7 @@ Date: ____________________________________________________________
 Assigned Role: ____________________________________________________________
 Shift Assignment: ____________________________________________________________
 Team Lead: ____________________________________________________________
-Status: [ ] Confirmed  [ ] Pending  [ ] Waitlist
+Status:
+- [ ] Confirmed
+- [ ] Pending
+- [ ] Waitlist
