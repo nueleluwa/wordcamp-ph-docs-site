@@ -16,7 +16,7 @@ Structure: Introduction (who they are and why they're notable) → Background (t
 
 ### 2. Sponsor Highlight
 Purpose: showcase sponsors and explain why they support the community.
-Structure: Introduction (company, what they do) → Why WordPress (their connection to the ecosystem) → Why Sponsor (why they chose WCPH) → What They Offer (relevant products/services) → Call to Action (visit their booth/website).
+Structure: Introduction (company, what they do) → Why WordPress (their connection to the ecosystem) → Why Sponsor (why they chose WCPHC) → What They Offer (relevant products/services) → Call to Action (visit their booth/website).
 
 ### 3. Community Member Story
 Purpose: humanize the community and show diverse paths into WordPress.

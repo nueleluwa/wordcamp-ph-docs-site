@@ -1,6 +1,6 @@
 # Call for Speakers & Program Guide
 
-**Purpose:** How WCPH sources, reviews, and schedules speakers, and how the program takes shape.
+**Purpose:** How WCPHC sources, reviews, and schedules speakers, and how the program takes shape.
 **Owner:** Program & Speakers Lead
 
 ## Timeline

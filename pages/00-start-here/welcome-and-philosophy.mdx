@@ -1,10 +1,10 @@
 # Welcome & Philosophy
 
-**Purpose:** Give anyone joining the team — new organizer or new volunteer — the mental model behind every decision WCPH makes, before they touch a task.
+**Purpose:** Give anyone joining the team — new organizer or new volunteer — the mental model behind every decision WCPHC makes, before they touch a task.
 
 ## What WordCamp Port Harcourt is
 
-WordCamp Port Harcourt (WCPH) is a community-organized event bringing together WordPress enthusiasts, developers, designers, bloggers, and digital professionals from Port Harcourt and Nigeria's South-South region.
+WordCamp Port Harcourt (WCPHC) is a community-organized event bringing together WordPress enthusiasts, developers, designers, bloggers, and digital professionals from Port Harcourt and Nigeria's South-South region.
 
 | | |
 |---|---|
@@ -13,6 +13,7 @@ WordCamp Port Harcourt (WCPH) is a community-organized event bringing together W
 | Expected attendance | 150–400 attendees |
 | Target audience | WordPress developers, designers, bloggers, freelancers, digital agencies, students |
 | Governing body | WordCamp Central / WordPress Foundation |
+| Official email | portharcourt@wordcamp.org |
 
 ## The four principles that override everything else
 
@@ -41,7 +42,7 @@ If you find a task without one of these three, that's a documentation gap — fl
 
 ## WordCamp Central guidelines — the non-negotiables
 
-WCPH operates inside rules set by WordCamp Central and the WordPress Foundation. The full handbook is at https://make.wordpress.org/community/handbook/wordcamp-organizer/. The five rules every organizer must internalize:
+WCPHC operates inside rules set by WordCamp Central and the WordPress Foundation. The full handbook is at https://make.wordpress.org/community/handbook/wordcamp-organizer/. The five rules every organizer must internalize:
 
 1. All WordCamps must be **not-for-profit** events.
 2. Events must be **open to all participants**, regardless of experience level.

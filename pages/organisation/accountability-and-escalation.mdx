@@ -1,10 +1,10 @@
 # Accountability & Escalation
 
-**Purpose:** WCPH's accountability culture, made operational. This is the page every other document points to when it asks "what happens if I can't complete a task?"
+**Purpose:** WCPHC's accountability culture, made operational. This is the page every other document points to when it asks "what happens if I can't complete a task?"
 
 ## The rule
 
-Every task tracked anywhere in WCPH's operation — a dashboard card, a checklist item, a deliverable in a playbook — must have three things before it's considered "assigned":
+Every task tracked anywhere in WCPHC's operation — a dashboard card, a checklist item, a deliverable in a playbook — must have three things before it's considered "assigned":
 
 1. **A named person**, not a team. "Logistics" cannot own a task; a person on the Logistics team can.
 2. **A clear deadline.** "Soon" or "before the event" is not a deadline.

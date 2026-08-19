@@ -1,6 +1,6 @@
 # KPI Framework
 
-**Purpose:** Every number WCPH tracks, in one place, with its owner and how it's measured. This is the "what does success look like" reference every team playbook links back to.
+**Purpose:** Every number WCPHC tracks, in one place, with its owner and how it's measured. This is the "what does success look like" reference every team playbook links back to.
 
 **Note on targets:** planning materials give a specific breakdown target of 300 total attendees (100 student + 150 regular + 50 sponsor/comp) alongside a broader acceptable range of 150–400 used in campaign messaging. Treat **300 as the working target** and **150–400 as the acceptable range** depending on venue capacity and how the year is tracking — don't treat the range as license to stop pushing once above 150.
 

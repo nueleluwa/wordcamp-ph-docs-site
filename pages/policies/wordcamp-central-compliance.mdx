@@ -1,6 +1,6 @@
 # WordCamp Central Compliance
 
-**Purpose:** The rules WCPH must follow because it operates under WordCamp Central and the WordPress Foundation, not because the local team chose them. These are not negotiable at the local level — if a decision anywhere in this documentation seems to conflict with one of these, the rule below wins and the document should be corrected.
+**Purpose:** The rules WCPHC must follow because it operates under WordCamp Central and the WordPress Foundation, not because the local team chose them. These are not negotiable at the local level — if a decision anywhere in this documentation seems to conflict with one of these, the rule below wins and the document should be corrected.
 
 **Reference:** Official handbook — https://make.wordpress.org/community/handbook/wordcamp-organizer/. Every organizer should read it directly at least once; this page is a working summary, not a replacement.
 

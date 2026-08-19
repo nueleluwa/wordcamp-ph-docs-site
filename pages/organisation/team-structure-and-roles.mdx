@@ -4,7 +4,7 @@
 
 ## Org shape
 
-WCPH is run by a **Lead Organizer** and a set of **Team Leads**, each owning one functional area end to end (strategy, execution, reporting). Team Leads recruit and coordinate their own team members. No team should have a single point of failure — every Team Lead should have at least one other person who can run their function if they're unavailable.
+WCPHC is run by a **Lead Organizer** and a set of **Team Leads**, each owning one functional area end to end (strategy, execution, reporting). Team Leads recruit and coordinate their own team members. No team should have a single point of failure — every Team Lead should have at least one other person who can run their function if they're unavailable.
 
 ```
 Lead Organizer

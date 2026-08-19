@@ -1,6 +1,6 @@
 # Vendor & Contracts Tracker
 
-**Purpose:** Every external vendor commitment WCPH depends on, tracked as a signed contract — not a verbal agreement or a WhatsApp message.
+**Purpose:** Every external vendor commitment WCPHC depends on, tracked as a signed contract — not a verbal agreement or a WhatsApp message.
 
 **Owner:** Logistics Lead
 
