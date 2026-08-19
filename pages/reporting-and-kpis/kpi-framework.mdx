@@ -1,0 +1,119 @@
+# KPI Framework
+
+**Purpose:** Every number WCPH tracks, in one place, with its owner and how it's measured. This is the "what does success look like" reference every team playbook links back to.
+
+**Note on targets:** planning materials give a specific breakdown target of 300 total attendees (100 student + 150 regular + 50 sponsor/comp) alongside a broader acceptable range of 150–400 used in campaign messaging. Treat **300 as the working target** and **150–400 as the acceptable range** depending on venue capacity and how the year is tracking — don't treat the range as license to stop pushing once above 150.
+
+## Event-level KPIs
+
+| KPI | Target | Measurement | Owner |
+|---|---|---|---|
+| Total Attendees | 300 (range 150–400) | Registration count | Lead Organizer |
+| Sponsor Revenue | ₦10,000,000 | Sum of sponsor payments | Sponsorship Lead |
+| Net Profit/Loss | Break-even or better | Revenue − Expenses | Lead Organizer |
+| Speaker Applications | 40+ | CFP submissions | Program Lead |
+| Partnerships | 25+ | Confirmed partners | Partnerships & Outreach Lead |
+| Volunteers | 40+ | Confirmed volunteers | Volunteer Coordinator |
+
+## Registration breakdown
+
+| Metric | Target |
+|---|---|
+| Total Registrations | 300 |
+| Student Tickets | 100 |
+| Regular Tickets | 150 |
+| Sponsor/Comp Tickets | 50 |
+
+## Sponsorship KPIs
+
+| KPI | Target | Measurement |
+|---|---|---|
+| Prospects Identified | 100 | Database count |
+| Contact Rate | 80% | Contacted / Prospects |
+| Response Rate | 30% | Responded / Contacted |
+| Conversion Rate | 15% | Confirmed / Prospects |
+| Average Deal Size | ₦1,000,000 | Revenue / Confirmed |
+| Time to Close | 30 days | Days from contact to confirmed |
+
+Full detail: [sponsorship/sponsorship-strategy-and-tiers.md](../sponsorship/sponsorship-strategy-and-tiers).
+
+## Marketing KPIs
+
+| KPI | Target | Measurement |
+|---|---|---|
+| Website Visits | 5,000 | Google Analytics |
+| Social Media Reach | 20,000 | Platform analytics |
+| Email Open Rate | 35% | Email platform |
+| Email Click Rate | 10% | Email platform |
+| Registration Conversion | 5% | Registrations / Visits |
+| Student Registrations | 100 | Registration data |
+
+Full detail: [marketing-and-communications/](../marketing-and-communications/).
+
+## Partnerships & Outreach KPIs
+
+| KPI | Target | Measurement | Frequency |
+|---|---|---|---|
+| Schools Contacted | 20+ | Dashboard | Weekly |
+| Campus Visits | 10+ | Visit log | Weekly |
+| Student Ambassadors | 10–15 | Ambassador roster | Weekly |
+| Training Hub Partners | 5+ | Partnership agreements | Weekly |
+| Corporate Attendees | 50+ | Registration data | Weekly |
+| Community Partners | 10–15 | Partnership agreements | Weekly |
+| Partner Reach | 5,000 | Sum of member counts | Weekly |
+| Email Open Rate (campaign) | 30%+ | Email analytics | Per campaign |
+| Email Response Rate (campaign) | 10%+ | Email tracking | Per campaign |
+
+Full detail: [partnerships-and-outreach/outreach-strategy-overview.md](../partnerships-and-outreach/outreach-strategy-overview) and the four segment playbooks.
+
+## Volunteer KPIs
+
+| KPI | Target | Measurement |
+|---|---|---|
+| Volunteers Confirmed | 40+ | Dashboard |
+| Coverage by Role | Every role staffed | Dashboard grouped by role |
+| Training Completion Rate | 100% before event | Training log |
+| Shift Coverage | Every shift staffed | Dashboard grouped by shift |
+
+Full detail: [volunteers/volunteer-program-guide.md](../volunteers/volunteer-program-guide).
+
+## Logistics KPIs
+
+| KPI | Target | Measurement |
+|---|---|---|
+| Vendors Confirmed / Total | All confirmed by 1 month before | Dashboard |
+| Budget Spent vs. Allocated | Within budget | Dashboard / finance tracker |
+| Pending Contracts | Zero by 1 month before | Dashboard |
+| Upcoming Deliveries | On schedule | Dashboard |
+
+Full detail: [venue-and-logistics/vendor-and-contracts-tracker.md](../venue-and-logistics/vendor-and-contracts-tracker).
+
+## Program KPIs
+
+| KPI | Target | Measurement |
+|---|---|---|
+| Talk Submissions Received | — | Dashboard count |
+| Speakers Confirmed | — | Dashboard count |
+| Review Progress | 100% before schedule publish | % submissions reviewed |
+
+Full detail: [speakers-and-program/call-for-speakers-and-program-guide.md](../speakers-and-program/call-for-speakers-and-program-guide).
+
+## How KPIs are calculated on the dashboard
+
+Standard formulas used across dashboard databases (Notion or equivalent — see [reporting-and-kpis/dashboard-and-tracking-setup.md](dashboard-and-tracking-setup)):
+
+```
+Progress Percentage:  Current / Target * 100
+Days Until Deadline:  daysBetween(Deadline, now)
+Overdue Flag:         if daysBetween(now, Deadline) > 0 → "Overdue" else "On Track"
+Status Color:         Progress ≥ 100 → green | ≥ 75 → yellow | else → red
+Conversion Rate:      Conversions / Contacts * 100
+```
+
+## Who reviews what, when
+
+- **Daily:** Executive Dashboard (Lead Organizer, all teams) and Team Dashboards (Team Leads, members)
+- **Real-time:** Operational/task views (individual organizers)
+- **As needed:** Public-facing dashboard (attendees)
+
+Full detail: [reporting-and-kpis/dashboard-and-tracking-setup.md](dashboard-and-tracking-setup).

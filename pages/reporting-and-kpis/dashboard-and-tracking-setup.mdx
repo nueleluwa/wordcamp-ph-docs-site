@@ -1,0 +1,111 @@
+# Dashboard & Tracking Setup
+
+**Purpose:** How to build and maintain the live tracking system every other document in this repository refers back to. The dashboard is the single source of truth for numbers; documents are the single source of truth for process.
+
+**Owner:** Lead Organizer sets up the workspace structure; each Team Lead owns their team's databases and views.
+
+## Dashboard principles
+
+- **Single source of truth** — all data lives in one place, not duplicated across spreadsheets and documents
+- **Real-time visibility** — progress updates continuously, not once a week
+- **Action-oriented** — dashboards should drive decisions, not just display history
+- **Accessible** — all team members can view the data relevant to them
+- **Automated** — minimize manual data entry with formulas and rollups
+
+## Dashboard architecture
+
+| Level | Purpose | Audience | Update frequency |
+|---|---|---|---|
+| Executive Dashboard | Overall event health | Lead Organizer, all teams | Daily |
+| Team Dashboards | Team-specific progress | Team Leads, members | Daily |
+| Operational Views | Task management | Individual organizers | Real-time |
+| Public Dashboard | Attendee-facing info | Public | As needed |
+
+## Recommended platform: Notion
+
+Notion is recommended because it offers databases with multiple views (Table, Board, Calendar, Gallery), relational databases (linking records across databases), rich text documentation pages, real-time collaboration, a free tier for non-profits/education, and mobile access. Any platform with equivalent capabilities (Airtable, etc.) can substitute — what matters is the structure below, not the specific tool.
+
+## Workspace structure
+
+```
+WordCamp Port Harcourt [Year] Workspace
+├── Dashboard (main overview page)
+├── Organizers (team management)
+├── Sponsors (sponsorship pipeline)
+├── Partners (community/institution partnerships)
+├── Outreach (schools, training hubs, corporate, community campaigns)
+├── Speakers (call for speakers)
+├── Attendees (registration tracking)
+├── Volunteers (volunteer coordination)
+├── Vendors (service providers)
+├── Timeline (event timeline)
+├── Documentation (this repository, linked or embedded)
+└── Archive (previous year materials)
+```
+
+## Page templates
+
+**Main Dashboard Page:** event countdown widget, key metrics overview (embedded databases), quick links to all team pages, recent updates/announcements, upcoming deadlines.
+
+**Team Hub Pages:** team mission & responsibilities (link to the team's playbook in this documentation), team member list with roles, key databases (embedded), quick links & resources, meeting notes archive.
+
+## Database property types
+
+| Property type | Use for | Example |
+|---|---|---|
+| Title | Primary identifier | Company Name, Person Name |
+| Text | Short descriptions | Job Title, Phone Number |
+| Number | Quantities, amounts | Ticket Count, Amount |
+| Select | Single choice from list | Status, Priority |
+| Multi-select | Multiple tags | Interests, Skills |
+| Date | Calendar dates | Deadline, Event Date |
+| Person | Team members | Assigned To, Reviewer |
+| Checkbox | Yes/No states | Completed, Confirmed |
+| URL | Web links | Website, Social Media |
+| Email | Email addresses | Contact Email |
+| Phone | Phone numbers | Contact Phone |
+| Relation | Link to other database | Sponsor → Attendees |
+| Rollup | Aggregate related data | Sum of Registrations |
+| Formula | Calculated values | Days Until Deadline |
+| Files | Attachments | Logo, Presentation |
+
+## Main dashboard widgets
+
+- **Event Countdown** — days until WordCamp, calculated from the confirmed event date
+- **Registration Progress** — Total/Student/Regular/Sponsor-Comp tickets, target vs. current, auto-calculated status
+- **Sponsor Pipeline** — count and amount by status (Confirmed, In Discussion, Proposal Sent, Prospect), % of ₦10M goal
+- **Partnership Progress** — Universities, Training Hubs, Communities, Corporate — target vs. confirmed vs. pending
+- **Task Overview** — Overdue (🔴), Due This Week (🟡), In Progress (🟢), Completed This Week
+- **Quick Links** — direct links to Sponsors DB, Attendees DB, Volunteers DB, Speakers DB, Timeline, Documentation
+
+## Team dashboard views by team
+
+| Team | Key metrics | Views to create |
+|---|---|---|
+| Sponsorship | Revenue vs. target, pipeline by status, follow-ups due/overdue, confirmed list | Pipeline (by status), My Sponsors (by assignee), Follow-up Today, Confirmed, Revenue (by tier) |
+| Partnerships & Outreach | Partners confirmed, by type, total reach, tickets allocated vs. used | All Partners, By Type, By Status, My Partners, Follow-up Required |
+| Program & Speakers | Submissions received, speakers confirmed, sessions by track, review progress | All Submissions, By Status, By Category, My Reviews |
+| Volunteers | Confirmed/target, coverage by role, training completion, shift coverage | All Volunteers, By Role, By Shift, By Status |
+| Logistics | Vendors confirmed/total, budget spent vs. allocated, pending contracts, upcoming deliveries | All Vendors, By Category, By Status, Payment Tracking |
+
+## Formulas in use
+
+```
+Progress Percentage:   Current / Target * 100
+Days Until Deadline:   daysBetween(Deadline, now)
+Overdue Flag:          if daysBetween(now, Deadline) > 0 → "⚠️ Overdue" else "✅ On Track"
+Status Color:          Progress ≥ 100 → 🟢 | ≥ 75 → 🟡 | else → 🔴
+Conversion Rate:       Conversions / Contacts * 100
+Status Indicator:      ≥100% 🟢 Complete | ≥75% 🟡 On Track | ≥50% 🟠 At Risk | else 🔴 Critical
+```
+
+## Additional progress-tracking tools
+
+- **Gantt / timeline view** — Notion Timeline view, Google Sheets Gantt template, Trello + Planyway, or Monday.com/Asana
+- **Kanban board for tasks** — columns: Backlog → To Do → In Progress → In Review → Done
+- **Calendar view for deadlines** — Notion Calendar, shared Google Calendar, or Outlook
+- **Automated reminders** — Notion @mentions for task assignments, Slack daily digest of overdue items, weekly email summary reports
+
+## Keeping the dashboard trustworthy
+
+A dashboard is only as good as its update discipline. The Friday reporting step in [planning/weekly-operating-rhythm.md](../planning/weekly-operating-rhythm) exists specifically so the dashboard doesn't silently go stale — if a team stops updating their database, the "Overdue" and "Due This Week" views become meaningless for the whole organization, not just that team.

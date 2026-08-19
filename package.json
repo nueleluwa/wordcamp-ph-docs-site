@@ -1,0 +1,27 @@
+{
+  "name": "wordcamp-ph-docs-site",
+  "version": "0.1.0",
+  "description": "Documentation website for WordCamp Port Harcourt, built with Nextra",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nueleluwa/wordcamp-ph-docs-site.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.5.11",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
+  }
+}
