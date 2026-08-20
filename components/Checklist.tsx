@@ -100,7 +100,7 @@ export function Checklist({ id, children }: { id: string; children: ReactNode })
       </div>
       <div className="wc-checklist-body">{enhance(children, { index: 0, checked, toggle })}</div>
       <p className="wc-checklist-note">
-        Progress is saved to this browser only — it's a personal reading aid, not the team's source of truth.
+        Progress is saved to this browser only. It's a personal reading aid, not the team's source of truth.
       </p>
     </div>
   )

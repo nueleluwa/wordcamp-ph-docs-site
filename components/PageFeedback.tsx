@@ -59,7 +59,7 @@ export function PageFeedback() {
           </div>
         </>
       )}
-      {answer === 'yes' && <span className="wc-feedback-thanks">Thanks — noted.</span>}
+      {answer === 'yes' && <span className="wc-feedback-thanks">Thanks, noted.</span>}
       {answer === 'no' && (
         <div className="wc-feedback-followup">
           <label htmlFor="wc-feedback-note" className="wc-feedback-label">

@@ -2,7 +2,7 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import { PageFeedback } from './components/PageFeedback'
 
-const SITE_TITLE = 'WordCamp Port Harcourt — Team Documentation'
+const SITE_TITLE = 'WordCamp Port Harcourt: Team Documentation'
 const SITE_DESCRIPTION = 'Operating documentation and playbook for WordCamp Port Harcourt'
 
 const config: DocsThemeConfig = {
@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/nueleluwa/wordcamp-ph-docs-site/blob/main',
   footer: {
-    text: 'WordCamp Port Harcourt — Building the WordPress Community in South-South Nigeria',
+    text: 'WordCamp Port Harcourt: Building the WordPress Community in South-South Nigeria',
   },
   // A muted teal accent, distinct from Nextra's default blue and tied to the
   // brand mark used in the favicon/OG image — was entirely unset before.

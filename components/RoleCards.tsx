@@ -16,7 +16,7 @@ const CARDS = [
   {
     tag: 'Reference',
     title: 'I need a template or checklist',
-    body: 'Application forms, tracking sheets, and report templates — ready to copy.',
+    body: 'Application forms, tracking sheets, and report templates, ready to copy.',
     href: '/templates'
   },
   {

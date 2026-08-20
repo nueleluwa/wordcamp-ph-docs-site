@@ -6,11 +6,11 @@
 
 ## Dashboard principles
 
-- **Single source of truth** — all data lives in one place, not duplicated across spreadsheets and documents
-- **Real-time visibility** — progress updates continuously, not once a week
-- **Action-oriented** — dashboards should drive decisions, not just display history
-- **Accessible** — all team members can view the data relevant to them
-- **Automated** — minimize manual data entry with formulas and rollups
+- **Single source of truth**: all data lives in one place, not duplicated across spreadsheets and documents
+- **Real-time visibility**: progress updates continuously, not once a week
+- **Action-oriented**: dashboards should drive decisions, not just display history
+- **Accessible**: all team members can view the data relevant to them
+- **Automated**: minimize manual data entry with formulas and rollups
 
 ## Dashboard architecture
 
@@ -23,7 +23,16 @@
 
 ## Recommended platform: Notion
 
-Notion is recommended because it offers databases with multiple views (Table, Board, Calendar, Gallery), relational databases (linking records across databases), rich text documentation pages, real-time collaboration, a free tier for non-profits/education, and mobile access. Any platform with equivalent capabilities (Airtable, etc.) can substitute — what matters is the structure below, not the specific tool.
+Notion is recommended because it offers:
+
+- Databases with multiple views (Table, Board, Calendar, Gallery)
+- Relational databases that link records across databases
+- Rich text documentation pages
+- Real-time collaboration
+- A free tier for non-profits and education
+- Mobile access
+
+Any platform with equivalent capabilities (Airtable, etc.) can substitute. What matters is the structure below, not the specific tool.
 
 ## Workspace structure
 
@@ -71,12 +80,12 @@ WordCamp Port Harcourt [Year] Workspace
 
 ## Main dashboard widgets
 
-- **Event Countdown** — days until WordCamp, calculated from the confirmed event date
-- **Registration Progress** — Total/Student/Regular/Sponsor-Comp tickets, target vs. current, auto-calculated status
-- **Sponsor Pipeline** — count and amount by status (Confirmed, In Discussion, Proposal Sent, Prospect), % of ₦10M goal
-- **Partnership Progress** — Universities, Training Hubs, Communities, Corporate — target vs. confirmed vs. pending
-- **Task Overview** — Overdue (🔴), Due This Week (🟡), In Progress (🟢), Completed This Week
-- **Quick Links** — direct links to Sponsors DB, Attendees DB, Volunteers DB, Speakers DB, Timeline, Documentation
+- **Event Countdown**: days until WordCamp, calculated from the confirmed event date
+- **Registration Progress**: Total/Student/Regular/Sponsor-Comp tickets, target vs. current, auto-calculated status
+- **Sponsor Pipeline**: count and amount by status (Confirmed, In Discussion, Proposal Sent, Prospect), % of ₦10M goal
+- **Partnership Progress**: Universities, Training Hubs, Communities, and Corporate, each shown as target vs. confirmed vs. pending
+- **Task Overview**: Overdue (🔴), Due This Week (🟡), In Progress (🟢), Completed This Week
+- **Quick Links**: direct links to Sponsors DB, Attendees DB, Volunteers DB, Speakers DB, Timeline, Documentation
 
 ## Team dashboard views by team
 
@@ -101,11 +110,11 @@ Status Indicator:      ≥100% 🟢 Complete | ≥75% 🟡 On Track | ≥50% �
 
 ## Additional progress-tracking tools
 
-- **Gantt / timeline view** — Notion Timeline view, Google Sheets Gantt template, Trello + Planyway, or Monday.com/Asana
-- **Kanban board for tasks** — columns: Backlog → To Do → In Progress → In Review → Done
-- **Calendar view for deadlines** — Notion Calendar, shared Google Calendar, or Outlook
-- **Automated reminders** — Notion @mentions for task assignments, Slack daily digest of overdue items, weekly email summary reports
+- **Gantt / timeline view**: Notion Timeline view, Google Sheets Gantt template, Trello + Planyway, or Monday.com/Asana
+- **Kanban board for tasks**: columns flow Backlog → To Do → In Progress → In Review → Done
+- **Calendar view for deadlines**: Notion Calendar, shared Google Calendar, or Outlook
+- **Automated reminders**: Notion @mentions for task assignments, Slack daily digest of overdue items, weekly email summary reports
 
 ## Keeping the dashboard trustworthy
 
-A dashboard is only as good as its update discipline. The Friday reporting step in [planning/weekly-operating-rhythm.md](../planning/weekly-operating-rhythm) exists specifically so the dashboard doesn't silently go stale — if a team stops updating their database, the "Overdue" and "Due This Week" views become meaningless for the whole organization, not just that team.
+A dashboard is only as good as its update discipline. The Friday reporting step in [planning/weekly-operating-rhythm.md](../planning/weekly-operating-rhythm) exists specifically so the dashboard doesn't silently go stale. If a team stops updating their database, the "Overdue" and "Due This Week" views become meaningless for the whole organization, not just that team.
