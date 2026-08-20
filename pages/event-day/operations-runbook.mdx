@@ -1,8 +1,13 @@
+import { Checklist } from '../../components/Checklist'
+import { PageInfo } from '../../components/PageInfo'
+
 # Event Day Operations Runbook
 
-**Purpose:** Step-by-step instructions for running event day. Share this document with every organizer and team lead — everyone on-site should know what happens when, and who is where. For what to do when something goes wrong, see [event-day/issue-response-playbook.md](issue-response-playbook).
-
-**Owner:** Lead Organizer, executed by all Team Leads.
+<PageInfo
+  purpose="Step-by-step instructions for running event day. Share this document with every organizer and team lead — everyone on-site should know what happens when, and who is where."
+  owner="Lead Organizer, executed by all Team Leads."
+  prerequisites={<>For what to do when something goes wrong, see the <a href="issue-response-playbook">Issue Response Playbook</a>.</>}
+/>
 
 ## Command center
 
@@ -28,6 +33,7 @@ Set up before the event, tested during setup day:
 ## Setup Timeline
 
 ### Day before event (Setup Day)
+<Checklist id="eventday-setup">
 - [ ] Venue access confirmed
 - [ ] Deliver and set up sponsor booths/displays
 - [ ] Test all AV equipment
@@ -36,8 +42,10 @@ Set up before the event, tested during setup day:
 - [ ] Prepare swag bags
 - [ ] Test WiFi connectivity
 - [ ] Confirm generator fuel levels
+</Checklist>
 
 ### Event Day — Morning (6:00 AM – 8:00 AM)
+<Checklist id="eventday-morning">
 - [ ] 6:00 AM — Lead organizer arrives, unlocks venue
 - [ ] 6:30 AM — AV team arrives, sets up equipment
 - [ ] 7:00 AM — Registration team arrives, sets up desk
@@ -45,8 +53,10 @@ Set up before the event, tested during setup day:
 - [ ] 7:30 AM — All volunteers arrive for briefing
 - [ ] 7:45 AM — Volunteer briefing and role assignments
 - [ ] 8:00 AM — Doors open for registration
+</Checklist>
 
 ### Event Day — During Event
+<Checklist id="eventday-during">
 - [ ] Registration desk staffed at all times
 - [ ] Stage manager coordinates speaker transitions
 - [ ] AV technician monitors all rooms
@@ -54,6 +64,7 @@ Set up before the event, tested during setup day:
 - [ ] Social media team posts updates and photos — see [marketing-and-communications/social-media-playbook.md](../marketing-and-communications/social-media-playbook)
 - [ ] Photographer/videographer captures sessions
 - [ ] Logistics team monitors facilities and catering
+</Checklist>
 
 ## Key stations & responsibilities
 
@@ -74,6 +85,7 @@ Capture photos of sessions, attendees, and networking; record video of keynotes 
 
 ## End of day procedures
 
+<Checklist id="eventday-endofday">
 - [ ] Thank attendees and speakers
 - [ ] Collect feedback forms
 - [ ] Secure all equipment
@@ -82,6 +94,7 @@ Capture photos of sessions, attendees, and networking; record video of keynotes 
 - [ ] Lock venue and set alarm
 - [ ] Debrief with organizing team
 - [ ] Document any issues for post-event review — feeds directly into [post-event/post-event-workflow.md](../post-event/post-event-workflow)
+</Checklist>
 
 ## Related
 

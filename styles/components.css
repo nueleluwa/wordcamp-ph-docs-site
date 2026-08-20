@@ -1,0 +1,258 @@
+/* WordCamp Port Harcourt docs — custom component styles.
+   Namespaced with wc- to avoid colliding with nextra's own nx- classes.
+   Colour derives from the theme's own --nextra-primary-hue/-saturation so it
+   stays in sync with primaryHue/primarySaturation in theme.config.tsx. */
+
+:root {
+  --wc-accent: hsl(var(--nextra-primary-hue) var(--nextra-primary-saturation) 32%);
+  --wc-accent-strong: hsl(var(--nextra-primary-hue) var(--nextra-primary-saturation) 26%);
+  --wc-accent-soft-bg: hsl(var(--nextra-primary-hue) calc(var(--nextra-primary-saturation) * 0.6) 95%);
+  --wc-accent-soft-border: hsl(var(--nextra-primary-hue) calc(var(--nextra-primary-saturation) * 0.55) 85%);
+  --wc-border: #e3e1d9;
+  --wc-ink: #1c2126;
+  --wc-ink-muted: #5b6169;
+  --wc-surface: #ffffff;
+}
+.dark {
+  --wc-accent: hsl(var(--nextra-primary-hue) calc(var(--nextra-primary-saturation) * 0.85) 68%);
+  --wc-accent-strong: hsl(var(--nextra-primary-hue) calc(var(--nextra-primary-saturation) * 0.85) 78%);
+  --wc-accent-soft-bg: hsl(var(--nextra-primary-hue) calc(var(--nextra-primary-saturation) * 0.4) 16%);
+  --wc-accent-soft-border: hsl(var(--nextra-primary-hue) calc(var(--nextra-primary-saturation) * 0.4) 28%);
+  --wc-border: #2b3238;
+  --wc-ink: #e7e5de;
+  --wc-ink-muted: #a2a9a6;
+  --wc-surface: #1b2126;
+}
+
+/* ---------- Role cards (homepage) ---------- */
+.wc-role-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem;
+  margin: 1.6rem 0 2rem;
+}
+@media (max-width: 640px) {
+  .wc-role-grid { grid-template-columns: 1fr; }
+}
+.wc-role-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.1rem 1.2rem 1.2rem;
+  border: 1px solid var(--wc-border);
+  border-radius: 12px;
+  background: var(--wc-surface);
+  text-decoration: none !important;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.wc-role-card:hover {
+  border-color: var(--wc-accent);
+  transform: translateY(-1px);
+}
+.wc-role-tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--wc-accent);
+}
+.wc-role-title {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--wc-ink);
+}
+.wc-role-body {
+  font-size: 0.86rem;
+  color: var(--wc-ink-muted);
+  line-height: 1.5;
+}
+.wc-role-arrow {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.2rem;
+  color: var(--wc-accent);
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+.wc-role-card:hover .wc-role-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ---------- Path steps (start-here guides) ---------- */
+.wc-step {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--wc-border);
+  border-radius: 10px;
+  background: var(--wc-surface);
+  text-decoration: none !important;
+  margin-bottom: 0.6rem;
+  transition: border-color 0.15s ease;
+}
+.wc-step:hover { border-color: var(--wc-accent); }
+.wc-step-n {
+  flex: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--wc-accent);
+  font-variant-numeric: tabular-nums;
+}
+.wc-step-of {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--wc-ink-muted);
+}
+.wc-step-main { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.wc-step-title { font-weight: 600; color: var(--wc-ink); font-size: 0.96rem; }
+.wc-step-desc { font-size: 0.84rem; color: var(--wc-ink-muted); line-height: 1.45; }
+.wc-step-arrow { margin-left: auto; color: var(--wc-accent); flex: none; }
+
+/* ---------- Checklist ---------- */
+.wc-checklist {
+  border: 1px solid var(--wc-border);
+  border-radius: 10px;
+  padding: 1rem 1.1rem 0.3rem;
+  margin: 1.2rem 0;
+  background: var(--wc-surface);
+}
+.wc-checklist-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 0.9rem;
+}
+.wc-checklist-track {
+  flex: 1 1 auto;
+  height: 6px;
+  border-radius: 99px;
+  background: var(--wc-accent-soft-bg);
+  overflow: hidden;
+}
+.wc-checklist-fill {
+  height: 100%;
+  background: var(--wc-accent);
+  border-radius: 99px;
+  transition: width 0.25s ease;
+}
+.wc-checklist-count {
+  flex: none;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--wc-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.wc-checklist-reset {
+  flex: none;
+  font-size: 0.72rem;
+  color: var(--wc-accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.15rem 0.4rem;
+  text-decoration: underline;
+}
+.wc-checklist-body li.task-list-item {
+  list-style: none;
+  margin-left: -1.4em;
+}
+.wc-checkbox { cursor: pointer; }
+.wc-checklist-note {
+  font-size: 0.74rem;
+  color: var(--wc-ink-muted);
+  opacity: 0.85;
+  margin: 0.6rem 0 0.9rem;
+}
+
+/* ---------- Page info strip ---------- */
+.wc-pageinfo {
+  border: 1px solid var(--wc-border);
+  border-left: 3px solid var(--wc-accent);
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  margin: 1.2rem 0 1.6rem;
+  background: var(--wc-accent-soft-bg);
+}
+.wc-pageinfo-row { display: flex; gap: 0.6rem; font-size: 0.86rem; }
+.wc-pageinfo-purpose { margin-bottom: 0.5rem; }
+.wc-pageinfo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.6rem;
+}
+.wc-pageinfo-label {
+  flex: none;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--wc-accent-strong);
+  padding-top: 0.1rem;
+  min-width: 5.2rem;
+}
+.wc-pageinfo-value { color: var(--wc-ink); }
+
+/* ---------- Page feedback ---------- */
+.wc-feedback {
+  margin-top: 3rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--wc-border);
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+.wc-feedback-prompt {
+  font-size: 0.86rem;
+  color: var(--wc-ink-muted);
+}
+.wc-feedback-actions { display: flex; gap: 0.5rem; }
+.wc-feedback-btn {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--wc-border);
+  border-radius: 99px;
+  background: var(--wc-surface);
+  color: var(--wc-ink);
+  cursor: pointer;
+}
+.wc-feedback-btn:hover { border-color: var(--wc-accent); color: var(--wc-accent-strong); }
+.wc-feedback-thanks { font-size: 0.86rem; color: var(--wc-ink-muted); }
+.wc-feedback-followup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+  max-width: 32rem;
+}
+.wc-feedback-label { font-size: 0.78rem; color: var(--wc-ink-muted); }
+.wc-feedback-note {
+  font: inherit;
+  font-size: 0.86rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--wc-border);
+  border-radius: 8px;
+  background: var(--wc-surface);
+  color: var(--wc-ink);
+  resize: vertical;
+}
+.wc-feedback-send {
+  align-self: flex-start;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #fff !important;
+  background: var(--wc-accent);
+  padding: 0.4rem 0.85rem;
+  border-radius: 99px;
+  text-decoration: none !important;
+}
+.wc-feedback-send:hover { background: var(--wc-accent-strong); }
+
+@media (prefers-reduced-motion: reduce) {
+  .wc-role-card, .wc-role-arrow, .wc-checklist-fill, .wc-step { transition: none; }
+}
