@@ -18,10 +18,10 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'WordCamp Port Harcourt: Building the WordPress Community in South-South Nigeria',
   },
-  // A muted teal accent, distinct from Nextra's default blue and tied to the
-  // brand mark used in the favicon/OG image — was entirely unset before.
-  primaryHue: 189,
-  primarySaturation: 50,
+  // WordPress blue (#3858e9 is hsl(228, 79%, 56%)), distinct from Nextra's
+  // default blue. Nextra derives its light/dark shades from this hue/saturation.
+  primaryHue: 228,
+  primarySaturation: 79,
   // Auto prev/next crossed unrelated sections (e.g. Recruiting → Sponsorship)
   // with no real relationship — disabled in favor of the hand-written
   // "Related" links already present throughout the content.
@@ -46,7 +46,7 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <meta name="description" content={SITE_DESCRIPTION} />
-      <meta name="theme-color" content="#1b4b52" />
+      <meta name="theme-color" content="#3858e9" />
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
       <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16" />
