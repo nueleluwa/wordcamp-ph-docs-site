@@ -1,14 +1,14 @@
 {
   "index": "Introduction",
-  "sep-orient": {
+  "sep-start": {
     "type": "separator",
-    "title": "Get oriented"
+    "title": "Start here"
   },
   "00-start-here": "Start Here",
   "organisation": "Organisation",
-  "sep-build": {
+  "sep-organise": {
     "type": "separator",
-    "title": "Build & run the team"
+    "title": "Organise the event"
   },
   "planning": "Planning",
   "recruiting": "Recruiting",
@@ -17,19 +17,19 @@
   "marketing-and-communications": "Marketing & Communications",
   "speakers-and-program": "Speakers & Program",
   "volunteers": "Volunteers",
-  "sep-delivery": {
-    "type": "separator",
-    "title": "Delivery"
-  },
   "venue-and-logistics": "Venue & Logistics",
+  "sep-run": {
+    "type": "separator",
+    "title": "Run event day"
+  },
   "event-day": "Event Day",
   "post-event": "Post-Event",
   "sep-reference": {
     "type": "separator",
-    "title": "Governance & Reference"
+    "title": "Policies & resources"
   },
-  "reporting-and-kpis": "Reporting & KPIs",
   "policies": "Policies",
   "templates": "Templates",
+  "reporting-and-kpis": "Reporting & KPIs",
   "troubleshooting": "Troubleshooting"
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 import { PageFeedback } from './components/PageFeedback'
 
@@ -24,7 +25,16 @@ const config: DocsThemeConfig = {
   // Auto prev/next crossed unrelated sections (e.g. Recruiting → Sponsorship)
   // with no real relationship — disabled in favor of the hand-written
   // "Related" links already present throughout the content.
+  // Sections start collapsed so the sidebar shows a handful of groups,
+  // with the detailed pages tucked underneath.
+  sidebar: { defaultMenuCollapseLevel: 1 },
   navigation: false,
+  // Replaces Nextra's default "– Nextra" suffix in the browser tab title.
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    // The home page title already names the site, so don't repeat it.
+    return { titleTemplate: asPath === '/' ? '%s' : '%s – WordCamp Port Harcourt' }
+  },
   main({ children }) {
     return (
       <>

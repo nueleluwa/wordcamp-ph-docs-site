@@ -27,11 +27,11 @@
 /* ---------- Role cards (homepage) ---------- */
 .wc-role-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.9rem;
   margin: 1.6rem 0 2rem;
 }
-@media (max-width: 640px) {
+@media (max-width: 800px) {
   .wc-role-grid { grid-template-columns: 1fr; }
 }
 .wc-role-card {
@@ -111,6 +111,16 @@
 .wc-step-title { font-weight: 600; color: var(--wc-ink); font-size: 0.96rem; }
 .wc-step-desc { font-size: 0.84rem; color: var(--wc-ink-muted); line-height: 1.45; }
 .wc-step-arrow { margin-left: auto; color: var(--wc-accent); flex: none; }
+.wc-step-label {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--wc-accent);
+}
+.wc-step-later { background: transparent; }
+.wc-step-later .wc-step-n { color: var(--wc-ink-muted); }
+.wc-step-later .wc-step-label { color: var(--wc-ink-muted); }
 
 /* ---------- Checklist ---------- */
 .wc-checklist {
